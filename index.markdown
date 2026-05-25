@@ -1,6 +1,5 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
+
+Welcome to my corner of the internet! I'm a full stack developer with a passion for the front end, theater, and learning new things. Check out the [About page](/about/) to learn more about me.
