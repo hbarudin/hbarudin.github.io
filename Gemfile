@@ -1,8 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
-gem "jekyll-feed", "~> 0.12"
-gem "jekyll-include-cache"
+gem "github-pages", "~> 231", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
