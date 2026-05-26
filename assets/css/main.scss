@@ -6,12 +6,21 @@
 @import "minimal-mistakes"; // main partials
 
 /* Custom: Move navigation below hero on homepage */
-.home .masthead {
-  position: static;
-  top: auto;
+html.home {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
 }
 
-.home .page__hero {
-  margin-top: 0;
-  order: -1;
+html.home .masthead {
+  grid-row: 2;
+  position: relative !important;
+  top: auto !important;
+}
+
+html.home .page__hero {
+  grid-row: 1;
+}
+
+html.home main {
+  grid-row: 3;
 }
