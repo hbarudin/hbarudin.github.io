@@ -23,11 +23,11 @@ jobs:
         with:
           ruby-version: '3.3'
           bundler-cache: true
-      - uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
       - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
 
   deploy:
     environment:
