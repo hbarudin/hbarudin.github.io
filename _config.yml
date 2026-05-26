@@ -68,8 +68,7 @@ footer:
       url: "mailto:hbarudin@gmail.com"
 
 # Navigation
-include:
-  - _pages
+breadcrumbs: false
 
 # Pagination
 paginate: 5
