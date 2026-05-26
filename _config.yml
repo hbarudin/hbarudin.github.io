@@ -46,26 +46,6 @@ author:
       url: "https://app.thestorygraph.com/profile/theatergirl62"
 
 # Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/hbarudin"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/hbarudin/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/theatergirl62/"
-    - label: "Bluesky"
-      icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/theatergirl62.bsky.social"
-    - label: "The Storygraph"
-      icon: "fas fa-fw fa-book"
-      url: "https://app.thestorygraph.com/profile/theatergirl62"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:hbarudin@gmail.com"
 
 # Navigation
 breadcrumbs: false
