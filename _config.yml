@@ -41,6 +41,9 @@ author:
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/theatergirl62.bsky.social"
+    - label: "The Storygraph"
+      icon: "fas fa-fw fa-book"
+      url: "https://app.thestorygraph.com/profile/theatergirl62"
 
 # Footer
 footer:
@@ -57,6 +60,9 @@ footer:
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/theatergirl62.bsky.social"
+    - label: "The Storygraph"
+      icon: "fas fa-fw fa-book"
+      url: "https://app.thestorygraph.com/profile/theatergirl62"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:hbarudin@gmail.com"
