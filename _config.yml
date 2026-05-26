@@ -68,9 +68,8 @@ footer:
       url: "mailto:hbarudin@gmail.com"
 
 # Navigation
-after_footer_scripts: []
-nav_exclude:
-  - /quick-start-guide
+include:
+  - _pages
 
 # Pagination
 paginate: 5
