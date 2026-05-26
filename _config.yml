@@ -1,13 +1,88 @@
-# Welcome to Jekyll!
 # Site settings
 title: Hannah Barudin
-description: My personal site
+subtitle: Personal site
+logo: /assets/images/bio-photo.jpg
+description: >-
+  Welcome to my personal website.
 email: hbarudin@gmail.com
 github_username: hbarudin
-baseurl: ""
 url: "https://hbarudin.com"
+baseurl: ""
+locale: "en-US"
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-seo-tag
+
+# Site Author
+author:
+  name: Hannah Barudin
+  avatar: /assets/images/bio-photo.jpg
+  bio: "Software engineer"
+  email: hbarudin@gmail.com
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hbarudin"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hbarudin@gmail.com"
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hbarudin"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hbarudin@gmail.com"
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Markdown Processing
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
