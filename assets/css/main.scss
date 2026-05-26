@@ -5,16 +5,13 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Custom: Move navigation below hero image */
-.site-header {
-  display: flex;
-  flex-direction: column;
+/* Custom: Move navigation below hero on homepage */
+.home .masthead {
+  position: static;
+  top: auto;
 }
 
-.site-nav {
-  order: 2;
-}
-
-.page__hero {
-  order: 1;
+.home .page__hero {
+  margin-top: 0;
+  order: -1;
 }

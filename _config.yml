@@ -54,6 +54,10 @@ breadcrumbs: false
 paginate: 5
 paginate_path: /page:num/
 
+# Atom Feed
+atom_feed:
+  hide: true
+
 # Markdown Processing
 markdown: kramdown
 highlighter: rouge
