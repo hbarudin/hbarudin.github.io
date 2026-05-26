@@ -6,4 +6,4 @@ header:
   overlay_filter: 0.5
 ---
 
-Welcome to my corner of the internet! I'm a full stack developer with a passion for the front end, theater, and learning new things. Check out the [About page](/about/) to learn more about me.
+Hello world! I am a web and software developer, a theater person, and generally useful person. Pleased to meet you!
